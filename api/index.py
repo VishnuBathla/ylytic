@@ -47,7 +47,8 @@ function_map = {
     "like_to": like_to,
     "reply_from": reply_from,
     "reply_to": reply_to,
-    "search_text": search_text
+    "search_text": search_text,
+    "seach_text":search_text
 }
 @app.route('/search',methods=['GET'])
 def api_fun():
